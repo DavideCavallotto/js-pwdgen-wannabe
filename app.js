@@ -27,7 +27,7 @@ let partOfMessagePassword = 'Questa è la tua password:'
 let passwordUtente = partOfMessagePassword + ' ' + userName + lastName + favoriteColor + numberPass
 // - Scrivere sulla pagina il risultato della concatenazione: nomecognomecolorepreferitonumero
 //     - inserire nell'html un tag h1 con id="passwordUtente"
-//     - recuperare con js l'elemento del dom con id ="passworUtente"
-const passworUtenteDomElement = document.getElementById('passworUtente')
+//     - recuperare con js l'elemento del dom con id ="passwordUtente"
+const passwordUtenteDomElement = document.getElementById('passwordUtente')
 //     - modificare l'innerHTML del h1 con il valore
-passworUtenteDomElement.innerHTML = passwordUtente
+passwordUtenteDomElement.innerHTML = passwordUtente
